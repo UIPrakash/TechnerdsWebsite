@@ -1,0 +1,98 @@
+#healthcare, #bfs, #eLearning, #wireless
+{
+    background-image:url("../images/bg_healthCare.svg");
+
+    h1
+    {
+        font-family: 'gravesend-sans', sans-serif !important;
+        color: $white;
+        font-size: 3rem;
+        font-weight: 600;
+    
+    }
+    .stripContainer
+    {
+        display: flex;
+        width: 50%;
+        margin-top: 20px;
+        .strip
+        {
+            background-color: rgba($color: #000000, $alpha: 0.3);
+            width: 50%;
+            color: $white;
+            padding: 20px 20px;
+            margin-right: 20px;
+            text-align: center;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+    }
+
+}
+#ourExpertise
+{
+    position: relative;
+    background-color:$bgLighGray;
+    height: calc(100vh + 150px);
+    .summaryText
+    {
+        position: absolute;
+        top: 50px;
+        width: 70%;
+        text-align: center;
+    }
+    h1
+    {
+        font-family: 'gravesend-sans', sans-serif !important;
+        font-size: 2.5rem;
+        font-weight: 500; 
+        margin-bottom: 50px;
+    }
+    .outExList
+    {
+        .listRow
+        {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 50px;
+            .list
+            {
+                display: flex;
+                width: 40%;
+                img
+                {
+                    width: 48px;
+                    height: 48px;
+                }
+                .listGroup
+                {
+                    padding-left: 20px;
+                    h2
+                    {
+                        font-size: 1.2rem;
+                        font-weight: 400;
+                    }
+                    
+                }
+            }
+        }
+    }
+}
+
+#bfs
+{
+    background-image:url("../images/bg_BFS.svg")
+} 
+
+#eLearning
+{
+    background-image:url("../images/bg_elearning.svg")
+} 
+
+#wireless
+{
+    background-image:url("../images/bg_wireless.svg")
+}

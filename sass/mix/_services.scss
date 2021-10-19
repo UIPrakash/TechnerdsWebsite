@@ -1,0 +1,156 @@
+#appDevBody
+{
+    #ourExpertise
+    {
+        height: calc(100vh + 150px);
+        align-items: normal;
+    }
+}
+
+#softDevBody
+{
+    #ourExpertise
+    {
+        height: 100vh;
+        align-items: normal;
+    }
+}
+#mobilityBody, #qaBody
+{
+    #ourExpertise
+    {
+        height: calc(100vh - 100px);
+        align-items: normal;
+        padding-top: 50px;
+    }
+}
+
+#appMainBody, #erpBody
+{
+    #ourExpertise
+    {
+        height: calc(100vh + 150px);
+        align-items: normal;
+    }
+}
+
+
+#appDev, #softDev, #mobility, #qa, #appMain, #support, #erp
+{
+    background-image:url("../images/bg_app.svg");
+    .landing_content
+    {
+        width: 60%;
+        h1
+        {
+            font-family: 'gravesend-sans', sans-serif !important;
+            color: $white;
+            font-size: 3rem;
+            font-weight: 600;
+            margin-bottom:25px ;
+        
+        }
+        h3
+        {
+            font-family: 'gravesend-sans', sans-serif !important;
+            color: $white;
+            font-size: 1.5rem;
+            font-weight: 400;
+            margin-bottom:10px ;
+        }
+        p
+        {
+            color: $white;
+            font-weight: 200;
+        }
+    }
+   
+
+
+}
+#description
+{
+    height: 100%;
+    background-color:$bgLighGray;
+    .dBox
+    {
+        padding: 50px 50px;
+        box-shadow: 0px 0px 5px #dcd9d9;
+        border-radius: 10px;
+        position: relative;
+        top: -50px;
+        background: #fff;
+        line-height: 28px;
+    }
+}
+#ourExpertise
+{
+    position: relative;
+    background-color:$bgLighGray;
+    height: calc(100vh + 150px);
+
+    h1
+    {
+        font-family: 'gravesend-sans', sans-serif !important;
+        font-size: 2.5rem;
+        font-weight: 500; 
+        margin-bottom: 50px;
+    }
+    .outExList
+    {
+        .listRow
+        {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 50px;
+            .list
+            {
+                display: flex;
+                width: 40%;
+                img
+                {
+                    width: 48px;
+                    height: 48px;
+                }
+                .listGroup
+                {
+                    padding-left: 20px;
+                    h2
+                    {
+                        font-size: 1.2rem;
+                        font-weight: 400;
+                    }
+                    
+                }
+            }
+        }
+    }
+}
+
+#softDev
+{
+    background-image:url("../images/bg_software.svg")
+} 
+
+#mobility
+{
+    background-image:url("../images/bg_mobile.svg")
+} 
+
+#qa
+{
+    background-image:url("../images/bg_testing.svg")
+}
+#appMain
+{
+    background-image:url("../images/bg_app_maintannace.svg")
+}
+#support
+{
+    background-image:url("../images/bg_support.svg")
+}
+#erp
+{
+    background-image:url("../images/bg_erp.svg")
+}
+

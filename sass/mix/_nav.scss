@@ -1,0 +1,167 @@
+nav
+{
+    background-color: transparent;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.233);
+   
+}
+.navActive
+{
+    background: rgb(17,152,239);
+background: -moz-linear-gradient(90deg, rgba(17,152,239,1) 0%, rgba(9,9,121,1) 50%, rgba(114,47,163,1) 100%);
+background: -webkit-linear-gradient(90deg, rgba(17,152,239,1) 0%, rgba(9,9,121,1) 50%, rgba(114,47,163,1) 100%);
+background: linear-gradient(90deg, rgba(17,152,239,1) 0%, rgba(9,9,121,1) 50%, rgba(114,47,163,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1198ef",endColorstr="#722fa3",GradientType=1);
+}
+.nav-item
+{
+    padding: 0 15px;
+}
+.active
+{
+    display: flex;
+    justify-content: center;
+}
+
+.active .actImage
+{
+   width: 15px;
+   height: 3px;
+   background-color: $white;
+   position:absolute;
+   bottom: -2px;
+}
+.nav-link
+{
+    color: $white !important;
+}
+.connect
+{
+    background-color: $white;
+    border-radius: 5px;
+    color: #222222 !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    font-weight: 400;
+}
+
+
+/* makes the dropdown full width  */
+.navbar .dropdown {
+    position:static;
+display: flex;
+
+}
+
+.navbar .dropdown-menu {
+  width:100%;
+  
+  left:0;
+  right:0;
+/*  height of nav-item  */
+  top:62px;
+  background-color: transparent;
+  visibility:hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.3s linear;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  border:0;
+  .navContainer
+  {
+      display: flex;
+      flex-direction: column;
+      padding: 50px;
+      width: 95%;
+      background-color: #ffffff;
+    .navBox
+    {
+      padding-top: 0px;  
+      display: flex;
+      justify-content: space-between;
+      &:first-child
+      {
+        padding-top: 50px;  
+      }
+        .navItem
+        {
+          display: flex;
+          width: 21%;
+          img
+          {
+            width: 25px;
+            height: 25px;
+            object-fit: contain;
+          }
+          .itemGroup
+          {
+              margin-left: 20px;
+              display: flex;
+              flex-direction: column;
+              justify-content: space-between;
+              height: 150px;
+              margin-bottom: 80px;
+              .content
+              {
+                  h3
+                  {
+                      font-size: 1.1rem;
+                      font-weight: 400;
+                      color: $primaryColor;
+                  }
+                  p
+                  {
+                      font-size: 0.8rem;
+                      color: $fontColorlight;
+                  }
+              }
+              a
+              {
+  
+              }
+  
+          }
+        }
+  
+    }
+  }
+  
+}
+.navbar .dropdown:hover .dropdown-menu, .navbar .dropdown .dropdown-menu:hover {
+  
+
+  }
+  
+ 
+  .dropdown-menu.show
+  {
+    visibility: visible;
+    opacity: 1;
+    transition: visibility 0s, opacity 0.3s linear;
+    display: flex !important; 
+  }
+  
+
+  /*OWL NAV*/
+  .owl-carousel
+  {
+      margin-top: 75px !important;
+  }
+  .owl-nav
+  {
+    position: absolute;
+    top: -50px;
+    right: 10px;
+    button
+    {
+      width: 50px;
+      background-color: $secondryColor !important;
+      height: 35px;
+  
+      &:first-child
+      {
+        margin-right: 10px;
+      }
+    }
+
+  }

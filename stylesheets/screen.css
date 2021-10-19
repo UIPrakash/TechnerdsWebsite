@@ -1,0 +1,1111 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+@import url("https://use.typekit.net/iqb5sby.css");
+/* line 1, ../sass/mix/_nav.scss */
+nav {
+  background-color: transparent;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.233);
+}
+
+/* line 7, ../sass/mix/_nav.scss */
+.navActive {
+  background: #1198ef;
+  background: -moz-linear-gradient(90deg, #1198ef 0%, #090979 50%, #722fa3 100%);
+  background: -webkit-linear-gradient(90deg, #1198ef 0%, #090979 50%, #722fa3 100%);
+  background: linear-gradient(90deg, #1198ef 0%, #090979 50%, #722fa3 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1198ef",endColorstr="#722fa3",GradientType=1);
+}
+
+/* line 15, ../sass/mix/_nav.scss */
+.nav-item {
+  padding: 0 15px;
+}
+
+/* line 19, ../sass/mix/_nav.scss */
+.active {
+  display: flex;
+  justify-content: center;
+}
+
+/* line 25, ../sass/mix/_nav.scss */
+.active .actImage {
+  width: 15px;
+  height: 3px;
+  background-color: #ffffff;
+  position: absolute;
+  bottom: -2px;
+}
+
+/* line 33, ../sass/mix/_nav.scss */
+.nav-link {
+  color: #ffffff !important;
+}
+
+/* line 37, ../sass/mix/_nav.scss */
+.connect {
+  background-color: #ffffff;
+  border-radius: 5px;
+  color: #222222 !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  font-weight: 400;
+}
+
+/* makes the dropdown full width  */
+/* line 49, ../sass/mix/_nav.scss */
+.navbar .dropdown {
+  position: static;
+  display: flex;
+}
+
+/* line 55, ../sass/mix/_nav.scss */
+.navbar .dropdown-menu {
+  width: 100%;
+  left: 0;
+  right: 0;
+  /*  height of nav-item  */
+  top: 62px;
+  background-color: transparent;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.3s linear;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  border: 0;
+}
+/* line 70, ../sass/mix/_nav.scss */
+.navbar .dropdown-menu .navContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  width: 95%;
+  background-color: #ffffff;
+}
+/* line 77, ../sass/mix/_nav.scss */
+.navbar .dropdown-menu .navContainer .navBox {
+  padding-top: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+/* line 82, ../sass/mix/_nav.scss */
+.navbar .dropdown-menu .navContainer .navBox:first-child {
+  padding-top: 50px;
+}
+/* line 86, ../sass/mix/_nav.scss */
+.navbar .dropdown-menu .navContainer .navBox .navItem {
+  display: flex;
+  width: 21%;
+}
+/* line 90, ../sass/mix/_nav.scss */
+.navbar .dropdown-menu .navContainer .navBox .navItem img {
+  width: 25px;
+  height: 25px;
+  object-fit: contain;
+}
+/* line 96, ../sass/mix/_nav.scss */
+.navbar .dropdown-menu .navContainer .navBox .navItem .itemGroup {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 150px;
+  margin-bottom: 80px;
+}
+/* line 106, ../sass/mix/_nav.scss */
+.navbar .dropdown-menu .navContainer .navBox .navItem .itemGroup .content h3 {
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: #002581;
+}
+/* line 112, ../sass/mix/_nav.scss */
+.navbar .dropdown-menu .navContainer .navBox .navItem .itemGroup .content p {
+  font-size: 0.8rem;
+  color: #8f8f8f;
+}
+
+/* line 136, ../sass/mix/_nav.scss */
+.dropdown-menu.show {
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0s, opacity 0.3s linear;
+  display: flex !important;
+}
+
+/*OWL NAV*/
+/* line 146, ../sass/mix/_nav.scss */
+.owl-carousel {
+  margin-top: 75px !important;
+}
+
+/* line 150, ../sass/mix/_nav.scss */
+.owl-nav {
+  position: absolute;
+  top: -50px;
+  right: 10px;
+}
+/* line 155, ../sass/mix/_nav.scss */
+.owl-nav button {
+  width: 50px;
+  background-color: #FF7F0A !important;
+  height: 35px;
+}
+/* line 161, ../sass/mix/_nav.scss */
+.owl-nav button:first-child {
+  margin-right: 10px;
+}
+
+/* line 2, ../sass/mix/_style.scss */
+html, body {
+  font-family: 'Poppins', sans-serif !important;
+  font-size: 14px;
+  font-weight: 300 !important;
+}
+
+/* line 9, ../sass/mix/_style.scss */
+section {
+  height: 100vh;
+  /* height: 100%; */
+  /* For 100% screen height */
+  width: 100%;
+  /* For 100% screen width */
+  background-size: cover;
+  display: flex !important;
+  align-items: center;
+}
+
+/* line 17, ../sass/mix/_style.scss */
+nav .logo {
+  height: 40px;
+}
+
+/* line 21, ../sass/mix/_style.scss */
+#home {
+  background-image: url("../images/bg_1.svg");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+/* line 30, ../sass/mix/_style.scss */
+#home .landing_content h1 {
+  font-family: 'gravesend-sans', sans-serif !important;
+  color: hsl(0, 0%, 100%);
+  /* width: 50%; */
+  font-size: 3rem;
+  font-weight: 600;
+}
+/* line 39, ../sass/mix/_style.scss */
+#home .landing_content p {
+  color: #ffffff;
+  /* width: 50%; */
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+/* line 49, ../sass/mix/_style.scss */
+#whoweare {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+/* line 54, ../sass/mix/_style.scss */
+#whoweare .who {
+  /* width: 50%; */
+}
+/* line 57, ../sass/mix/_style.scss */
+#whoweare .who h1 {
+  font-family: 'Gravesend Sans', sans-serif !important;
+  color: #002581;
+  font-size: 2.5rem;
+  font-weight: 600;
+  padding-bottom: 5px;
+}
+/* line 66, ../sass/mix/_style.scss */
+#whoweare .who h2 {
+  color: #FF7F0A;
+  font-size: 1.2rem;
+  font-weight: 300;
+  padding-bottom: 50px;
+}
+/* line 74, ../sass/mix/_style.scss */
+#whoweare .who p {
+  color: #676767;
+  font-size: 1rem;
+  font-weight: 300;
+}
+/* line 82, ../sass/mix/_style.scss */
+#whoweare .image {
+  width: 80%;
+}
+
+/* line 87, ../sass/mix/_style.scss */
+#ourservice {
+  background-color: #00133E;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* line 93, ../sass/mix/_style.scss */
+#ourservice h1 {
+  font-family: 'Gravesend Sans', sans-serif !important;
+  font-size: 2.5rem;
+  font-weight: 600;
+  padding-bottom: 5px;
+}
+/* line 101, ../sass/mix/_style.scss */
+#ourservice h2 {
+  font-size: 1rem;
+  font-weight: 300;
+}
+/* line 106, ../sass/mix/_style.scss */
+#ourservice .slide {
+  margin-top: 35px;
+  display: flex;
+}
+/* line 111, ../sass/mix/_style.scss */
+#ourservice .slide .tile {
+  background-color: #08246C;
+  width: 100%;
+  height: 350px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  padding: 10px;
+  margin-right: 10px;
+}
+/* line 125, ../sass/mix/_style.scss */
+#ourservice .slide .tile:hover .overlay {
+  top: 10%;
+}
+/* line 130, ../sass/mix/_style.scss */
+#ourservice .slide .tile .overlay {
+  position: absolute;
+  top: 100%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #000000;
+  padding: 25px;
+  transition-property: top;
+  transition-duration: 0.5s;
+  transition-delay: 0s;
+}
+/* line 144, ../sass/mix/_style.scss */
+#ourservice .slide .tile .overlay img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+/* line 151, ../sass/mix/_style.scss */
+#ourservice .slide .tile .overlay h1 {
+  font-size: 1.3rem;
+  font-weight: 300;
+  font-family: 'Poppins' !important;
+  padding-bottom: 10px;
+}
+/* line 158, ../sass/mix/_style.scss */
+#ourservice .slide .tile .overlay p {
+  font-size: 0.9rem;
+  font-weight: 200;
+}
+/* line 163, ../sass/mix/_style.scss */
+#ourservice .slide .tile .overlay a {
+  color: #fff;
+}
+/* line 166, ../sass/mix/_style.scss */
+#ourservice .slide .tile .overlay a .learnMore {
+  display: flex;
+  width: 130px;
+  justify-content: space-between;
+  border: 1px solid;
+  height: 40px;
+  padding: 10px;
+  margin-top: 30px;
+}
+/* line 175, ../sass/mix/_style.scss */
+#ourservice .slide .tile .overlay a .learnMore p {
+  text-decoration: none;
+  padding-left: 10px;
+}
+/* line 180, ../sass/mix/_style.scss */
+#ourservice .slide .tile .overlay a .learnMore img {
+  width: 6px;
+  height: 18px;
+}
+/* line 186, ../sass/mix/_style.scss */
+#ourservice .slide .tile .overlay a .buttonBar {
+  position: absolute;
+  top: -2px;
+  height: 4px;
+}
+/* line 194, ../sass/mix/_style.scss */
+#ourservice .slide .tile img {
+  width: 60%;
+  height: 35%;
+  object-fit: contain;
+  margin-bottom: 30px;
+}
+/* line 201, ../sass/mix/_style.scss */
+#ourservice .slide .tile h3 {
+  font-size: 1.6rem;
+  font-weight: 200;
+  text-align: center;
+}
+
+/* line 210, ../sass/mix/_style.scss */
+#score {
+  position: relative;
+  height: 300px;
+  background-color: #F2F3F6;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  padding-bottom: 25px;
+}
+/* line 213, ../sass/mix/_style.scss */
+#score .img_bg_dots {
+  position: absolute;
+  top: 10px;
+  width: 100%;
+}
+/* line 224, ../sass/mix/_style.scss */
+#score h1 {
+  font-family: 'Gravesend Sans', sans-serif !important;
+  color: #002581;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+/* line 233, ../sass/mix/_style.scss */
+#tools {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+/* line 239, ../sass/mix/_style.scss */
+#tools .title {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+/* line 244, ../sass/mix/_style.scss */
+#tools .title h1 {
+  font-family: 'Gravesend Sans', sans-serif !important;
+  color: #002581;
+  font-size: 2.5rem;
+  font-weight: 600;
+  padding-bottom: 5px;
+}
+/* line 253, ../sass/mix/_style.scss */
+#tools .title h2 {
+  color: #FF7F0A;
+  font-size: 1.2rem;
+  font-weight: 300;
+  padding-bottom: 50px;
+  width: 90%;
+}
+/* line 266, ../sass/mix/_style.scss */
+#tools .item img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+/* line 272, ../sass/mix/_style.scss */
+#tools .item h3 {
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: #1F1F1F;
+}
+
+/* line 283, ../sass/mix/_style.scss */
+#model {
+  background-color: #F2F3F6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* line 290, ../sass/mix/_style.scss */
+#model h1 {
+  font-family: 'Gravesend Sans', sans-serif !important;
+  font-size: 2.5rem;
+  font-weight: 600;
+  padding-bottom: 5px;
+}
+/* line 298, ../sass/mix/_style.scss */
+#model h2 {
+  font-size: 1rem;
+  font-weight: 300;
+}
+/* line 303, ../sass/mix/_style.scss */
+#model .modelTile {
+  padding: 25px 40px;
+  height: 350px;
+  background: white;
+  box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.16);
+}
+/* line 310, ../sass/mix/_style.scss */
+#model .modelTile h3 {
+  font-size: 1.4rem;
+  color: #002581;
+}
+/* line 315, ../sass/mix/_style.scss */
+#model .modelTile p {
+  color: #676767;
+  font-weight: 200;
+  line-height: 30px;
+}
+
+/* line 325, ../sass/mix/_style.scss */
+#process {
+  height: 300px;
+  background-color: #00133E;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#process h1
+{
+  font-family: 'Gravesend Sans', sans-serif !important;
+    font-size: 2.5rem;
+    font-weight: 600;
+    padding-bottom: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+/* line 332, ../sass/mix/_style.scss */
+#process img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+/* line 338, ../sass/mix/_style.scss */
+#process h3 {
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 300;
+}
+/* line 344, ../sass/mix/_style.scss */
+#process .itemProcess {
+  text-align: center;
+}
+
+/* line 349, ../sass/mix/_style.scss */
+#testimonial {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F2F3F6;
+  height: 550px;
+  padding-bottom: 150px;
+}
+/* line 357, ../sass/mix/_style.scss */
+#testimonial h1 {
+  font-family: 'Gravesend Sans', sans-serif !important;
+  font-size: 2.5rem;
+  font-weight: 600;
+  padding-bottom: 5px;
+  text-align: center;
+  margin-bottom: 80px;
+}
+/* line 366, ../sass/mix/_style.scss */
+#testimonial .contant {
+  display: flex;
+  justify-content: center;
+}
+/* line 370, ../sass/mix/_style.scss */
+#testimonial .contant img {
+  height: 150px;
+  width: 150px;
+}
+/* line 377, ../sass/mix/_style.scss */
+#testimonial .contant .testi .message {
+  font-size: 1rem;
+  font-weight: 200;
+}
+/* line 382, ../sass/mix/_style.scss */
+#testimonial .contant .testi .author {
+  margin-top: 15px;
+}
+/* line 385, ../sass/mix/_style.scss */
+#testimonial .contant .testi .author h3 {
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+/* line 389, ../sass/mix/_style.scss */
+#testimonial .contant .testi .author h4 {
+  font-size: 1rem;
+  font-weight: 400;
+  padding-left: 10px;
+}
+
+/* line 400, ../sass/mix/_style.scss */
+footer {
+  background-color: #262A33;
+  color: #ffffff;
+  padding: 50px 0;
+}
+/* line 405, ../sass/mix/_style.scss */
+footer .footerLogo {
+  height: 40px;
+  margin-bottom: 10px;
+}
+/* line 410, ../sass/mix/_style.scss */
+footer h1 {
+  font-size: 1.1rem;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+/* line 416, ../sass/mix/_style.scss */
+footer ul {
+  padding: 0;
+}
+/* line 419, ../sass/mix/_style.scss */
+footer ul li {
+  list-style: none;
+  font-size: 0.8rem;
+  font-weight: 200;
+  line-height: 22px;
+}
+/* line 425, ../sass/mix/_style.scss */
+footer ul li a {
+  color: #ffffff;
+}
+/* line 428, ../sass/mix/_style.scss */
+footer ul li a:hover {
+  color: #F2F3F6;
+}
+/* line 433, ../sass/mix/_style.scss */
+footer ul li img {
+  width: 14px;
+  height: 14px;
+  object-fit: contain;
+  margin-right: 10px;
+}
+/* line 443, ../sass/mix/_style.scss */
+footer ul.india li {
+  display: flex;
+}
+/* line 446, ../sass/mix/_style.scss */
+footer ul.india li img {
+  margin-top: 5px;
+}
+/* line 453, ../sass/mix/_style.scss */
+footer .formContainer {
+  background: white;
+  padding: 25px;
+  position: absolute;
+  top: -200px;
+  width: 330px;
+  box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.16);
+  color: #676767;
+  border-radius: 5px;
+}
+/* line 463, ../sass/mix/_style.scss */
+footer .formContainer button {
+  background-color: #002581;
+}
+
+/* line 470, ../sass/mix/_style.scss */
+.copyrights {
+  height: 30px;
+  text-align: center;
+  font-size: 0.8rem;
+  line-height: 30px;
+  color: #F2F3F6;
+  background-color: #676767;
+}
+
+/* line 1, ../sass/mix/_about.scss */
+#about {
+  background-image: url("../images/about.png");
+  background-size: 100% 100%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  width: 100%;
+}
+/* line 9, ../sass/mix/_about.scss */
+#about .con {
+  display: flex;
+  justify-content: end;
+}
+/* line 13, ../sass/mix/_about.scss */
+#about .con .landing_content {
+  width: 50%;
+}
+/* line 15, ../sass/mix/_about.scss */
+#about .con .landing_content h1 {
+  color: #ffffff;
+  font-family: 'gravesend-sans', sans-serif !important;
+  font-size: 3rem;
+  font-weight: 600;
+  padding-bottom: 30px;
+}
+/* line 23, ../sass/mix/_about.scss */
+#about .con .landing_content h3 {
+  color: #ffffff;
+  font-family: 'gravesend-sans', sans-serif !important;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+/* line 30, ../sass/mix/_about.scss */
+#about .con .landing_content p {
+  line-height: 25px;
+  color: #ffffff;
+  font-weight: 200;
+}
+
+/* line 40, ../sass/mix/_about.scss */
+#started {
+  background-image: url("../images/about2.png");
+  background-size: 100% 100%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  width: 100%;
+}
+/* line 48, ../sass/mix/_about.scss */
+#started .alignF {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+/* line 53, ../sass/mix/_about.scss */
+#started .alignFImg {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+/* line 59, ../sass/mix/_about.scss */
+#started img {
+  width: 60%;
+}
+#started h1 {
+  font-family: 'gravesend-sans', sans-serif !important;
+  font-size: 2.5rem;
+  font-weight: 6x00;
+  margin-bottom: 20px;
+}
+/* line 63, ../sass/mix/_about.scss */
+#started .dots {
+  background-image: url("../images/dots_2.svg");
+  height: 300px;
+  width: 500px;
+  position: absolute;
+}
+
+/* line 73, ../sass/mix/_about.scss */
+#team {
+  background-color: #00133E;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 150px;
+}
+/* line 79, ../sass/mix/_about.scss */
+#team .con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex-direction: column;
+}
+/* line 86, ../sass/mix/_about.scss */
+#team .con h1 {
+  color: #ffffff;
+  font-family: 'gravesend-sans', sans-serif !important;
+  font-size: 3rem;
+  font-weight: 600;
+  padding-bottom: 50px;
+}
+/* line 94, ../sass/mix/_about.scss */
+#team .con .teamMem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* line 101, ../sass/mix/_about.scss */
+#team .con .teamMem img {
+  width: 35%;
+}
+/* line 105, ../sass/mix/_about.scss */
+#team .con .teamMem h1 {
+  color: #ffffff;
+  font-family: 'gravesend-sans', sans-serif !important;
+  font-size: 1.1rem;
+  font-weight: 400;
+  margin-top: 10px;
+  padding-bottom: 5px;
+}
+/* line 115, ../sass/mix/_about.scss */
+#team .con .teamMem h3 {
+  font-size: 1rem;
+  font-weight: 200;
+  color: #ffffff;
+  padding-bottom: 10px;
+}
+/* line 122, ../sass/mix/_about.scss */
+#team .con .teamMem .social {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100px;
+}
+/* line 128, ../sass/mix/_about.scss */
+#team .con .teamMem .social img {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
+
+/* line 1, ../sass/mix/_industries.scss */
+#healthcare, #bfs, #eLearning, #wireless {
+  background-image: url("../images/bg_healthCare.svg");
+}
+/* line 5, ../sass/mix/_industries.scss */
+#healthcare h1, #bfs h1, #eLearning h1, #wireless h1 {
+  font-family: 'gravesend-sans', sans-serif !important;
+  color: #ffffff;
+  font-size: 3rem;
+  font-weight: 600;
+}
+/* line 13, ../sass/mix/_industries.scss */
+#healthcare .stripContainer, #bfs .stripContainer, #eLearning .stripContainer, #wireless .stripContainer {
+  display: flex;
+  width: 50%;
+  margin-top: 20px;
+}
+/* line 18, ../sass/mix/_industries.scss */
+#healthcare .stripContainer .strip, #bfs .stripContainer .strip, #eLearning .stripContainer .strip, #wireless .stripContainer .strip {
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 50%;
+  color: #ffffff;
+  padding: 20px 20px;
+  margin-right: 20px;
+  text-align: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 35, ../sass/mix/_industries.scss */
+#ourExpertise {
+  position: relative;
+  background-color: #F5F7FA;
+  /* height: calc(100vh + 150px); */
+  height: 100vh;
+}
+/* line 40, ../sass/mix/_industries.scss */
+#ourExpertise .summaryText {
+  position: static;
+  top: 50px;
+  width:100%;
+  text-align: center;
+}
+/* line 47, ../sass/mix/_industries.scss */
+#ourExpertise h1 {
+  font-family: 'gravesend-sans', sans-serif !important;
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+/* line 56, ../sass/mix/_industries.scss */
+#ourExpertise .outExList .listRow {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+/* line 61, ../sass/mix/_industries.scss */
+#ourExpertise .outExList .listRow .list {
+  display: flex;
+  width: 40%;
+}
+/* line 65, ../sass/mix/_industries.scss */
+#ourExpertise .outExList .listRow .list img {
+  width: 48px;
+  height: 48px;
+}
+/* line 70, ../sass/mix/_industries.scss */
+#ourExpertise .outExList .listRow .list .listGroup {
+  padding-left: 20px;
+}
+/* line 73, ../sass/mix/_industries.scss */
+#ourExpertise .outExList .listRow .list .listGroup h2 {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+/* line 85, ../sass/mix/_industries.scss */
+#bfs {
+  background-image: url("../images/bg_BFS.svg");
+}
+
+/* line 90, ../sass/mix/_industries.scss */
+#eLearning {
+  background-image: url("../images/bg_elearning.svg");
+}
+
+/* line 95, ../sass/mix/_industries.scss */
+#wireless {
+  background-image: url("../images/bg_wireless.svg");
+}
+
+/* line 3, ../sass/mix/_services.scss */
+#appDevBody #ourExpertise {
+  /* height: calc(100vh + 150px); */
+  height:100vh;
+  align-items: normal;
+}
+
+/* line 12, ../sass/mix/_services.scss */
+#softDevBody #ourExpertise {
+  height:100vh;
+  align-items: normal;
+}
+
+/* line 20, ../sass/mix/_services.scss */
+#mobilityBody #ourExpertise, #qaBody #ourExpertise {
+  height: calc(100vh - 100px);
+  align-items: normal;
+  padding-top: 50px;
+}
+
+/* line 30, ../sass/mix/_services.scss */
+#appMainBody #ourExpertise, #erpBody #ourExpertise {
+  /* height: calc(100vh + 150px); */
+  height: 100vh;
+  align-items: normal;
+}
+
+/* line 38, ../sass/mix/_services.scss */
+#appDev, #softDev, #mobility, #qa, #appMain, #support, #erp {
+  background-image: url("../images/bg_app.svg");
+}
+/* line 41, ../sass/mix/_services.scss */
+#appDev .landing_content, #softDev .landing_content, #mobility .landing_content, #qa .landing_content, #appMain .landing_content, #support .landing_content, #erp .landing_content {
+  width: 60%;
+}
+/* line 44, ../sass/mix/_services.scss */
+#appDev .landing_content h1, #softDev .landing_content h1, #mobility .landing_content h1, #qa .landing_content h1, #appMain .landing_content h1, #support .landing_content h1, #erp .landing_content h1 {
+  font-family: 'gravesend-sans', sans-serif !important;
+  color: #ffffff;
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+/* line 53, ../sass/mix/_services.scss */
+#appDev .landing_content h3, #softDev .landing_content h3, #mobility .landing_content h3, #qa .landing_content h3, #appMain .landing_content h3, #support .landing_content h3, #erp .landing_content h3 {
+  font-family: 'gravesend-sans', sans-serif !important;
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+/* line 61, ../sass/mix/_services.scss */
+#appDev .landing_content p, #softDev .landing_content p, #mobility .landing_content p, #qa .landing_content p, #appMain .landing_content p, #support .landing_content p, #erp .landing_content p {
+  color: #ffffff;
+  font-weight: 200;
+}
+
+/* line 71, ../sass/mix/_services.scss */
+#description {
+  height: 100%;
+  background-color: #F5F7FA;
+}
+/* line 75, ../sass/mix/_services.scss */
+#description .dBox {
+  padding: 50px 50px;
+  box-shadow: 0px 0px 5px #dcd9d9;
+  border-radius: 10px;
+  position: relative;
+  top: -50px;
+  background: #fff;
+  line-height: 28px;
+}
+
+/* line 86, ../sass/mix/_services.scss */
+#ourExpertise {
+  position: relative;
+  background-color: #F5F7FA;
+  /* height: calc(100vh + 150px); */
+  height: 100vh;
+}
+/* line 92, ../sass/mix/_services.scss */
+#ourExpertise h1 {
+  font-family: 'gravesend-sans', sans-serif !important;
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+/* line 101, ../sass/mix/_services.scss */
+#ourExpertise .outExList .listRow {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+/* line 106, ../sass/mix/_services.scss */
+#ourExpertise .outExList .listRow .list {
+  display: flex;
+  width: 40%;
+}
+/* line 110, ../sass/mix/_services.scss */
+#ourExpertise .outExList .listRow .list img {
+  width: 48px;
+  height: 48px;
+}
+
+/* line 130, ../sass/mix/_services.scss */
+#softDev {
+  background-image: url("../images/bg_software.svg");
+}
+
+/* line 135, ../sass/mix/_services.scss */
+#mobility {
+  background-image: url("../images/bg_mobile.svg");
+}
+
+/* line 140, ../sass/mix/_services.scss */
+#qa {
+  background-image: url("../images/bg_testing.svg");
+}
+
+/* line 144, ../sass/mix/_services.scss */
+#appMain {
+  background-image: url("../images/bg_app_maintannace.svg");
+}
+
+/* line 148, ../sass/mix/_services.scss */
+#support {
+  background-image: url("../images/bg_support.svg");
+}
+
+/* line 152, ../sass/mix/_services.scss */
+#erp {
+  background-image: url("../images/bg_erp.svg");
+}
+
+/* line 1, ../sass/mix/_careers.scss */
+#careers {
+  background-image: url("../images/bg_careers.svg");
+ 
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  width: 100%;
+}
+/* line 10, ../sass/mix/_careers.scss */
+#careers .landing_content {
+  color: #ffffff;
+}
+/* line 13, ../sass/mix/_careers.scss */
+#careers .landing_content h1 {
+  font-family: 'gravesend-sans', sans-serif !important;
+  font-size: 3rem;
+  font-weight: 600;
+  padding-bottom: 30px;
+  color: #ffffff;
+}
+
+/* line 24, ../sass/mix/_careers.scss */
+#careersList {
+  background-color: #F2F3F6;
+  width: 100%;
+  margin: 120px 0 200px 0;
+  display: block !important;
+  height: fit-content;
+}
+/* line 31, ../sass/mix/_careers.scss */
+#careersList .jobTiles {
+  display: flex;
+  padding: 15px;
+}
+/* line 35, ../sass/mix/_careers.scss */
+#careersList .jobTiles .jobTile {
+  padding: 10px 20px;
+  background-color: #d3d3d3;
+  border-radius: 50px;
+  margin-right: 10px;
+}
+/* line 41, ../sass/mix/_careers.scss */
+#careersList .jobTiles .jobTile.active {
+  background-color: #002581;
+  color: #ffffff;
+}
+/* line 47, ../sass/mix/_careers.scss */
+#careersList .jobTiles .jTile {
+  width: 80%;
+  box-shadow: 1px 1px 10px #cccccc;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* line 55, ../sass/mix/_careers.scss */
+#careersList .jobTiles .jTile .content {
+  padding: 15px;
+}
+/* line 58, ../sass/mix/_careers.scss */
+#careersList .jobTiles .jTile .content h1 {
+  font-size: 1.6rem;
+}
+/* line 62, ../sass/mix/_careers.scss */
+#careersList .jobTiles .jTile .content h3 {
+  font-size: 1rem;
+  font-weight: 400;
+}
+/* line 68, ../sass/mix/_careers.scss */
+#careersList .jobTiles .jTile .arrow {
+  margin-right: 20px;
+}
+/* line 71, ../sass/mix/_careers.scss */
+#careersList .jobTiles .jTile .arrow img {
+  height: 16px;
+}
+/* line 81, ../sass/mix/_careers.scss */
+#careersList .jobDetails h3 {
+  font-size: 1.2rem;
+  padding-bottom: 10px;
+}
+/* line 86, ../sass/mix/_careers.scss */
+#careersList .jobDetails p {
+  line-height: 28px;
+}
+
+/* line 94, ../sass/mix/_careers.scss */
+#careerBody {
+  background-color: #F2F3F6;
+}
+
+/* line 98, ../sass/mix/_careers.scss */
+#activities {
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 300px;
+  flex-direction: column;
+}
+/* line 104, ../sass/mix/_careers.scss */
+#activities h1 {
+  font-family: 'gravesend-sans', sans-serif !important;
+  font-size: 3rem;
+  font-weight: 600;
+  color: #002581;
+}
+/* line 111, ../sass/mix/_careers.scss */
+#activities .imageContainer {
+  width: 80%;
+}
+
+/* line 116, ../sass/mix/_careers.scss */
+.nav-tabs {
+  border-bottom: none;
+}

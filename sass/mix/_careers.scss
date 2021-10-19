@@ -1,0 +1,118 @@
+#careers
+{
+    background-image:url("../images/bg_career.png");
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 100%;
+
+    .landing_content
+    {
+        color: $white;
+        h1
+        {
+            font-family: 'gravesend-sans', sans-serif !important;
+            font-size: 3rem;
+            font-weight: 600;
+            padding-bottom: 30px;
+            color: $white
+        }
+
+    }
+}
+#careersList
+{
+    background-color: $lightGray;
+   width:100%;
+    margin:120px 0 200px 0;
+    display: block !important;
+    height: fit-content;
+    .jobTiles
+    {
+        display: flex;
+        padding: 15px;
+        .jobTile
+        {
+            padding: 10px 20px;
+            background-color: $halfGray;
+            border-radius: 50px;
+            margin-right: 10px;
+            &.active
+            { 
+                background-color: $primaryColor;
+                color: $white;
+            }
+        }
+        .jTile
+        {
+            width: 80%;
+            box-shadow: 1px 1px 10px #cccccc;
+            border-radius: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .content
+            {
+                padding: 15px;
+                h1
+                {
+                    font-size: 1.6rem;
+                }
+                h3
+                {
+                    font-size: 1rem;
+                    font-weight: 400;
+                }
+            }
+            .arrow
+            {
+                margin-right: 20px;
+                img
+                
+                {
+                    height:16px
+                }
+            }
+        }
+
+    }
+    .jobDetails {
+        h3
+        {
+            font-size: 1.2rem;
+            padding-bottom: 10px;
+        }
+        p
+        {
+            line-height: 28px;
+        }
+       
+    }
+}
+
+#careerBody
+{
+    background-color: $lightGray;
+}
+#activities
+{
+    width:100%;
+    justify-content: center;
+    margin-bottom: 300px;
+    flex-direction: column;
+    h1
+    {
+        font-family: 'gravesend-sans', sans-serif !important;
+        font-size: 3rem;
+        font-weight: 600;
+        color:$primaryColor;
+    }
+    .imageContainer
+    {
+        width:80%
+    }
+}
+.nav-tabs{
+    border-bottom: none;
+}

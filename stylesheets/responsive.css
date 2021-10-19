@@ -1,0 +1,501 @@
+/*--------------------------------------------------------------------------------------------------
+    Media Query - Mobile View Only - Max Width 767px
+--------------------------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 767px) {
+
+    nav
+    {
+        padding: 0 !important;
+    }
+
+    #home p{
+        text-align: justify;
+    }
+    .mobile-mt-70{
+        margin-top: 70px;
+    }
+#home .landing_content h1 {
+    width: 100%;
+    font-size:1.5rem;
+    font-weight: 600;
+}
+#home {
+    background-repeat: no-repeat;
+    height:50vh;
+    width: 100%;
+    background-size: cover;
+    display: flex !important;
+    align-items: center;
+}
+#model h1{text-align: center;margin-top:30px; }
+#model h2{text-align: center;width:100%; }
+#model{
+    height:128vh; 
+   
+}
+#testimonial{
+    height:100vh; 
+    display: block !important;
+}
+#tools .item
+{
+    display: flex;
+    align-items: center;
+}
+#process{
+    height:45vh;
+}
+#testimonial h1{
+    margin-bottom: 36px;
+    padding-top:36px;
+}
+#testimonial .contant{
+    justify-content: center!important;
+    display: flex;
+    width: 100%;
+    margin-bottom: 12px; 
+}
+.owl-nav {
+    position: absolute;
+    top: 4px;
+    right: 10px;
+}
+#testimonial .contant img{
+    margin-bottom: 30px;
+}
+.owl-carousel {
+    margin-top: 20px !important;
+}
+#model .modelTile {
+    padding: 17px 14px;
+    height: 260px;
+    background: white;
+    box-shadow: 1px 2px 6px rgb(0 0 0 / 16%);
+}
+#model .modelTile p{
+    line-height: 26px;
+}
+#ourservice,#tools,#about,#erp{
+    height:75vh;
+}
+#whoweare{
+    height:90vh; 
+}
+#activities{
+    height: 15vh;
+}
+#home .landing_content p{
+    width: 100%;
+}
+#whoweare .who h2{
+    padding-bottom: 24px;
+}
+#whoweare .image {
+    width: 100%;
+}
+#testimonial .contant {
+    display:block;
+}
+.footer1,.footer2{
+    display: none;
+}
+#ourservice .slide .tile{
+    margin-right: -45px; 
+}
+#score p,#score h1{
+    text-align: center;
+}
+#tools .item img{
+    justify-content: center!important;
+    display: flex;
+  margin-right: 10px;
+    margin-bottom: 12px;
+}
+#appDev .landing_content, #softDev .landing_content, #mobility .landing_content, #qa .landing_content, #appMain .landing_content, #support .landing_content, #erp .landing_content {
+    width: 100%;
+}
+#mobilityBody #ourExpertise, #qaBody #ourExpertise {
+    height: 100%;
+}
+#softDevBody #ourExpertise {
+    height: 100%;
+    align-items: normal;
+}
+/* //about page */
+#about .con .landing_content {
+width: 100%;
+}
+#healthcare, #eLearning, #appDev,#softDev,#mobility,#qa,#appMain,#support,#erpBody{
+    height: 65vh;
+}
+#about
+{
+    padding-top: 500px;
+}
+#about .landing_content h1
+
+{
+    background-color: rgba(0,0,0,0.7);
+    height: 50px;
+    line-height: 50px;
+    padding-left: 10px;
+}
+
+#about,#started
+{
+    background-size: cover;
+}
+#about .con .landing_content h1{
+    font-size: 2rem;
+}
+#team .con .teamMem img {
+    width: 40%;
+}
+#team .con .teamMem .social{
+    margin-bottom: 16px;
+}
+#team .con{
+    display: block;
+}
+#team{
+    height:140vh;
+}
+#team .con h1{
+padding: 24px 0px;
+text-align: center;
+}
+#bfs{
+    height: 70vh;
+}
+#ourExpertise{
+    position: relative;
+    background-color: #F5F7FA;
+    height:164vh;
+}
+.mobileexpertise{
+    height:164vh;
+}
+#ourExpertise .summaryText{
+    position:static;
+    width: 100%;
+    margin-top:40px;
+}
+#ourExpertise .outExList .listRow{
+display: block;
+margin-bottom: 24px;
+}
+#ourExpertise .outExList .listRow .list,#ourExpertise .outExList .listRow .list {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+#ourExpertise .outExList .listRow .list .listGroup, #ourExpertise .outExList .listRow .list .listGroup{
+    padding-left: 0px;
+}
+#ourExpertise .outExList .listRow .list img, #ourExpertise .outExList .listRow .list img{
+    display: unset;
+    margin-bottom: 16px;
+}
+#healthcare h1, #bfs h1, #eLearning h1, #wireless h1 {
+    font-family: 'gravesend-sans', sans-serif !important;
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 25px;
+    text-align: center;
+}
+#healthcare .stripContainer, #bfs .stripContainer, #eLearning .stripContainer, #wireless .stripContainer {
+    display: flex;  
+    width: 100%;
+    margin-top: 20px;
+    margin: 12px 0px 12px -12px !important;
+}
+#healthcare .stripContainer .strip, #bfs .stripContainer .strip, #eLearning .stripContainer .strip, #wireless .stripContainer .strip{
+    margin-left: 20px;
+    margin-right: 0px;
+}
+#ourExpertise h1{
+    text-align: center;
+
+}
+#careersList .jobTiles .jobTile {
+    padding: 10px 14px;
+}
+#careers{
+    height: 45vh;
+}
+#careersList .jobTiles {
+    display: flex;
+    padding: 2px;
+}
+.nav-item {
+    padding: 8px 2px;
+}
+#careersList {
+    margin: 28px 0 120px 0;
+}
+#appDev .landing_content h1, #softDev .landing_content h1, #mobility .landing_content h1, #qa .landing_content h1, #appMain .landing_content h1, #support .landing_content h1, #erp .landing_content h1 {
+    font-family: 'gravesend-sans', sans-serif !important;
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+#appMainBody #ourExpertise, #erpBody #ourExpertise {
+    height: 208vh;
+    align-items: normal;
+}
+footer .formContainer{
+    width:100%;
+    position: static;
+}
+footer{
+    height:86vh;
+    margin-top: 32px;
+}
+nav.shrink {
+    /* background-color: #114771; */
+    height: 60px;
+    padding-top: 0;
+}
+.navbar-nav li a {
+    margin-right: 0;
+    /* background-color: #114771; */
+    text-align: center;
+}
+.navbar-nav{
+    margin-top: 36px;
+}
+.text-white{
+    color:#333 !important;
+}
+
+.navbar-nav li a {
+    margin-right: 0;
+    /* background-color: #114771; */
+    text-align: center;
+    width: 100%;
+    font-size:18px;
+}
+.navbar .nav-item {
+    padding: 0px 2px;
+    /* width: 100%; */
+}
+.navbar-nav .nav-link, .navbar {
+  padding:16px 0px;
+}
+.navbar-nav>li>.dropdown-menu a:link, .navbar-nav>li>.dropdown-menu a:visited, .navbar-nav>li>.dropdown-menu a:hover, .navbar-nav>li>.dropdown-menu a:active {
+    /* background-color: #114771; */
+    color: #fff;
+    padding: 6px 0px;
+    font-size: 16px;
+}
+.dropdown-menu.show{
+    display: block !important;
+}
+.navbar-nav li .dropdown-menu a {
+    padding-left: 20px;
+    padding-right: 12px;
+    font-size: 16px;
+}
+.dropdown-menu {
+    padding: 0px 0px !important;
+    margin-top: -1% !important;
+    margin-bottom: -1% !important;
+    /* background-color: #114771 !important; */
+}
+.navbar,.dropdown-item{
+    padding: 0px;
+}
+.navbar-toggler{
+    background-color: #eee !important;
+}
+#whoweare .image {
+    width: 75%;
+    text-align: center;
+}
+.navbar{
+   
+    text-align: right;
+    background: linear-gradient(
+        90deg, #1198ef 0%, #090979 50%, #722fa3 100%); 
+}
+.navbar-brand{
+    position: absolute;
+    left: 8px;
+    top: -1px;
+}
+.dropdown-menu.show{
+    padding: 20px 0px !important;
+}
+
+}
+
+/*--------------------------------------------------------------------------------------------------
+    Media Query - Tablet View Only - Max Width 991px
+--------------------------------------------------------------------------------------------------*/
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    /* menu css code*/
+    #mobilityBody #ourExpertise, #qaBody #ourExpertise {
+        height: calc(77vh - 100px);
+    }
+    .navbar-brand{
+        float: left;
+    }
+    .dropdown-divider{
+        display:none;
+    }
+    #careers{
+        height: 45vh;
+    }
+    #careersList .jobTiles {
+        display: flex;
+        padding: 2px;
+    }
+    #careersList .jobTiles .jobTile {
+        padding: 10px 14px;
+    }
+    .nav-item {
+        padding: 8px 2px;
+    }
+    .navbar-toggler {
+        background-color: #eee !important;
+    }
+    .navbar-nav{
+        padding-top: 13px;
+    margin: 0px !important;
+    width: 100%;
+    padding-bottom: 30px;
+    }
+    .dropdown-menu.show {
+        visibility: visible;
+        opacity: 1;
+        transition: visibility 0s, opacity 0.3s linear;
+        display: block !important;
+    }
+    .dropdown-menu.show{
+        padding: 20px 0px !important;
+    }
+    #activities {
+        width:100%;
+        height:95vh;
+        margin-bottom:10px;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .dropdown-menu {
+        padding: 10px auto;
+        margin-top: -1%;
+        margin-bottom: -1%;
+        background-color: #114771;
+    }
+    .navbar-toggler{
+        position: absolute;
+    right: 18px;
+    top: 14px;
+    }
+    .navbar {
+        text-align: right;
+        background: linear-gradient( 
+    90deg, #1198ef 0%, #090979 50%, #722fa3 100%);
+    }
+.navbar-nav li a {
+    margin-right: 0;
+    /* background-color: #114771; */
+    text-align: center;
+}
+.navbar-nav>li>.dropdown-menu a:link, .navbar-nav>li>.dropdown-menu a:visited, .navbar-nav>li>.dropdown-menu a:hover, .navbar-nav>li>.dropdown-menu a:active {
+    /* background-color: #114771; */
+    color: #fff;
+}
+    #home, #tools, #wireless, #eLearning, #healthcare,#careersList{
+        height: 50vh;
+    }
+    #bfs{
+        height: 60vh;
+    }
+    #appDev,#softDev,#mobility,#qa,#appMain,#support,#erp{
+        height:45vh;  
+    }
+    #whoweare, #ourservice {
+        height:75vh;  
+    }
+    #model {
+        height:85vh;  
+    }
+    #whoweare .image {
+        width: 60%;
+    }
+    #score {
+        position: relative;
+        height: 240px;
+    }
+    #model .modelTile {
+     margin-bottom: 12px;
+        height: 220px;
+    }
+    #testimonial {
+        height: 660px;
+        padding-bottom: 99px;
+    }
+    #team .con .teamMem img {
+        width: 75%;
+    }
+    #team .con h1{
+        padding-bottom:10px;
+    }
+    #healthcare .stripContainer, #bfs .stripContainer, #eLearning .stripContainer, #wireless .stripContainer {
+        display: flex;
+        width: 100%;
+        margin-top: 20px;
+    }
+    #healthcare .stripContainer .strip, #bfs .stripContainer .strip, #eLearning .stripContainer .strip, #wireless .stripContainer .strip{
+        font-size: 20px;
+    }
+    #ourExpertise {
+        height: 150vh;
+        padding-top: 100px;
+    }
+    #ourExpertise h1{
+        text-align: center;
+    }
+    #ourExpertise .summaryText{
+        width:90%;
+    }
+    #ourExpertise {
+        height:95vh;
+        padding-top: 0px;
+    }
+    #careersList {
+        margin: 28px 0 120px 0;
+    }
+}
+
+/*--------------------------------------------------------------------------------------------------
+    Media Query - Upto Tablet View - Max Width 992px
+--------------------------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 991px) {
+
+}
+#footer .socialIcon
+{
+    margin-bottom: 25px;
+}
+#footer .socialIcon img
+{
+width: 25px;
+margin-right: 10px;
+}
+.sendEmail
+{
+    height: 65px;
+    margin: 15px;
+    line-height: 65px;
+}
+#careerBody #footer
+{
+padding-top: 120px;
+}

@@ -1,0 +1,139 @@
+#about
+{
+    background-image:url("../images/about.png");
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 100%;
+    .con
+    {
+        display: flex;
+        justify-content: end;
+        .landing_content{
+            width: 50%;
+            h1
+            {
+                color:$white;
+                font-family: 'gravesend-sans', sans-serif !important;
+                font-size: 3rem;
+                font-weight: 600;
+                padding-bottom: 30px;
+            }
+            h3
+            {
+                color:$white;
+                font-family: 'gravesend-sans', sans-serif !important;
+                font-size: 1.5rem;
+                font-weight: 400;
+            }
+            p
+            {
+                line-height: 25px;
+                color: $white;
+                font-weight: 200;
+            }
+        }
+    }
+}
+
+#started
+{
+    background-image:url("../images/about2.png");
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 100%;
+    .alignF{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    }
+    .alignFImg{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        }
+    img
+    {
+        width: 60%;
+    }
+    .dots
+    {
+        background-image:url("../images/dots_2.svg");
+        height: 300px;
+        width: 500px;
+        position: absolute;
+    }
+    
+}
+
+#team
+{
+    background-color: $darkBlue;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 150px;
+    .con
+    {
+            display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+        h1
+        {
+            color:$white;
+            font-family: 'gravesend-sans', sans-serif !important;
+            font-size: 3rem;
+            font-weight: 600;
+            padding-bottom: 50px;
+        }
+        .teamMem
+        {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        
+            img
+            {
+                width: 35%;
+            }
+            h1
+            {
+                color: #ffffff;
+                font-family: 'gravesend-sans', sans-serif !important;
+                font-size: 1.1rem;
+                font-weight: 400;
+                margin-top: 10px;
+                padding-bottom: 5px;
+
+            }
+            h3  
+            {
+                font-size: 1rem;
+                font-weight: 200;
+                color: $white;
+                padding-bottom: 10px;
+            }
+            .social
+            {
+               display: flex;
+               justify-content: space-between;
+               align-items: center;
+               width: 100px;
+                img
+                {
+                    width: 18px;
+                    height: 18px;
+                    object-fit: contain;
+                }
+            
+            }
+        }
+    }
+   
+}
