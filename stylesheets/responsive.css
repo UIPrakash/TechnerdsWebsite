@@ -4,10 +4,7 @@
 
 @media screen and (max-width: 767px) {
 
-    nav
-    {
-        padding: 0 !important;
-    }
+
 
     #home p{
         text-align: justify;
@@ -265,7 +262,7 @@ nav.shrink {
     text-align: center;
 }
 .navbar-nav{
-    margin-top: 36px;
+    /* margin-top: 36px; */
 }
 .text-white{
     color:#333 !important;
@@ -498,4 +495,38 @@ margin-right: 10px;
 #careerBody #footer
 {
 padding-top: 120px;
+}
+.navControl
+{
+    width: 80%;
+    float: right;
+    margin-top: 6px;
+}
+
+.mobNav
+{
+    padding: 0px !important;
+    min-height: 56px;
+}
+.mobNav button
+{
+   margin-top: 10px;
+   margin-right: 10px;
+}
+
+.mobNav .navCon
+{
+    background-color: #f4f4f4;
+    margin-top: 10px;
+}
+
+.mobNav .navCon li
+{
+     border-bottom: 1px solid #e5e5e5
+}
+.mobNav .navCon li a
+{
+    text-align: left;
+    padding-left: 10px;
+    color: #6d6d85 !important;
 }

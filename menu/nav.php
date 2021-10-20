@@ -4,7 +4,7 @@
               <span class="navbar-toggler-icon"></span>
             </button>
           
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse navControl" id="navbarSupportedContent" >
               <ul class="navbar-nav ml-auto" >
                 <li class="nav-item active">
                   <a class="nav-link" href="index.php">Home</a>
@@ -206,14 +206,14 @@
     </form>
   </div>
 </nav> -->
-        <nav class="d-block d-md-block d-lg-none  navbar navbar-expand-lg navbar-light fixed-top">
+        <nav class="d-block d-md-block d-lg-none  navbar navbar-expand-lg navbar-light fixed-top mobNav">
             <!--bg-light-->
             <a class="navbar-brand" href="index.php"><img src="./images/logo.svg" alt="" class="logo"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse navCon" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
                         <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
@@ -241,7 +241,7 @@
                             role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Services
                         </a>
-                        <div class="dropdown-menu dropdown-menu-industr" aria-labelledby="navbarDropdownMenuLink">
+                        <div class="dropdown-menu dropdown-menu-industr d-none" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item" href="services/application-development.php">Application Development</a>
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="services/software-product-development.php">Software Product Development</a>
