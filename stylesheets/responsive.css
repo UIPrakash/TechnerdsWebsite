@@ -21,14 +21,14 @@
     background-repeat: no-repeat;
     height:50vh;
     width: 100%;
-    background-size: cover;
+    background-size: 200%;
     display: flex !important;
     align-items: center;
 }
 #model h1{text-align: center;margin-top:30px; }
 #model h2{text-align: center;width:100%; }
 #model{
-    height:128vh; 
+    height:150vh; 
    
 }
 #testimonial{
@@ -41,7 +41,7 @@
     align-items: center;
 }
 #process{
-    height:45vh;
+    height:80vh;
 }
 #testimonial h1{
     margin-bottom: 36px;
@@ -80,8 +80,13 @@
     height:90vh; 
 }
 #activities{
-    height: 15vh;
+    height: 60vh;
+    margin-bottom: 50px;
 }
+#activities h1{
+    font-size: 1.5rem;
+}
+
 #home .landing_content p{
     width: 100%;
 }
@@ -128,7 +133,8 @@ width: 100%;
 }
 #about
 {
-    padding-top: 500px;
+    padding-top: 50px;
+    background-size: 800%;
 }
 #about .landing_content h1
 
@@ -139,9 +145,9 @@ width: 100%;
     padding-left: 10px;
 }
 
-#about,#started
+#started, #started .dots 
 {
-    background-size: cover;
+    background-image: none;
 }
 #about .con .landing_content h1{
     font-size: 2rem;
@@ -168,10 +174,15 @@ text-align: center;
 #ourExpertise{
     position: relative;
     background-color: #F5F7FA;
-    height:164vh;
+    height:auto;
+}
+#appDevBody #ourExpertise{
+    position: relative;
+    background-color: #F5F7FA;
+    height:auto;
 }
 .mobileexpertise{
-    height:164vh;
+    height:auto;
 }
 #ourExpertise .summaryText{
     position:static;
@@ -248,8 +259,7 @@ footer .formContainer{
     position: static;
 }
 footer{
-    height:86vh;
-    margin-top: 32px;
+    height:86vh;  margin-top: 32px;
 }
 nav.shrink {
     /* background-color: #114771; */
@@ -325,6 +335,16 @@ nav.shrink {
 }
 .dropdown-menu.show{
     padding: 20px 0px !important;
+}
+
+.dropdown-menu-industr
+{
+    margin-left: 50px !important;
+}
+
+.dropdown-menu-industr a
+{
+   font-size: 14px !important;
 }
 
 }

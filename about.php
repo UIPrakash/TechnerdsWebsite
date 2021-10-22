@@ -48,7 +48,7 @@
             <div class="dots"></div>
             <div class="container">
               <div class="row">
-                <div class="col-12 col-md-12 col-lg-6 col-xl-6 alignF">
+                <div class="col-12 col-md-12 col-lg-6 col-xl-6 alignF mb-5">
                   <h1>
                     HOW IT STARTED?
                   </h1>

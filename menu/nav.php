@@ -16,7 +16,7 @@
                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Industries We Serve
                   </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <div class="dropdown-menu " aria-labelledby="navbarDropdown">
                     <div class="navContainer">
                       <div class="navBox">
                         <div class="navItem">
@@ -226,7 +226,7 @@
                             role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Industries We Serve
                         </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <div class="dropdown-menu  dropdown-menu-industr d-none" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item" href="industries/healthcare.php" >Healthcare</a>
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="industries/bfs.php">BFSI</a>
