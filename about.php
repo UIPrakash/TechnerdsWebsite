@@ -18,7 +18,6 @@
     </head>
     <body>
     <?php include 'menu/nav.php';?>
-
           <section id="about">
                 <div class="container con">
                   <div class="landing_content">
@@ -30,7 +29,6 @@
                   </h3>
                   <p>
                     Our mission is to discover, design and benefit companies with the use of modern practices and customized software solutions to develop complete web & mobile apps better and faster.
-
                     As an IT service provider, TechNerds thrives on providing service with a keen mission of “we develop the future solutions today.”
                   </p>
                   <h3 class="mt-5">
@@ -40,8 +38,7 @@
                     Regardless of the industry, the vision of TechNerds is to exceptionally transform companies digitally.
                     Furthermore, to be recognized in the industry as the most reliable, responsive, and provide high quality of services and expert solutions.
                   </p>
-                  </div>
-                    
+                  </div>    
                 </div>
           </section>
           <section id="started">

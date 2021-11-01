@@ -769,7 +769,7 @@ footer .formContainer button {
 
 /* line 1, ../sass/mix/_industries.scss */
 #healthcare, #bfs, #eLearning, #wireless {
-  background-image: url("../images/bg_healthCare.svg");
+  background-image: url("../images/bg_healthCare.png");
 }
 /* line 5, ../sass/mix/_industries.scss */
 #healthcare h1, #bfs h1, #eLearning h1, #wireless h1 {
@@ -847,17 +847,17 @@ footer .formContainer button {
 
 /* line 85, ../sass/mix/_industries.scss */
 #bfs {
-  background-image: url("../images/bg_BFS.svg");
+  background-image: url("../images/bg_BFS.png");
 }
 
 /* line 90, ../sass/mix/_industries.scss */
 #eLearning {
-  background-image: url("../images/bg_elearning.svg");
+  background-image: url("../images/bg_elearning.png");
 }
 
 /* line 95, ../sass/mix/_industries.scss */
 #wireless {
-  background-image: url("../images/bg_wireless.svg");
+  background-image: url("../images/bg_wireless.png");
 }
 
 /* line 3, ../sass/mix/_services.scss */

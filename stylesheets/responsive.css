@@ -3,9 +3,6 @@
 --------------------------------------------------------------------------------------------------*/
 
 @media screen and (max-width: 767px) {
-
-
-
     #home p{
         text-align: justify;
     }
@@ -232,6 +229,9 @@ margin-bottom: 24px;
 }
 #careers{
     height: 45vh;
+    background-position-x: 70%;
+
+    background-size: 240%;
 }
 #careersList .jobTiles {
     display: flex;
