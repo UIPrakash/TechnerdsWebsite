@@ -26,7 +26,7 @@ $c_message = $_POST['c_message'];
 // echo "<br>";
 
 
-if(isset($c_email)){
+if(isset($c_email) && !empty($c_email)){
 
    // $to = "thiru@technerdssolutions.com, srinivas@sandblazedigitals.com";
    // $subject = "TechNerds Solutions lead";
@@ -76,15 +76,13 @@ curl_setopt($curl, CURLOPT_URL,
 curl_setopt($curl, CURLOPT_POSTFIELDS, json_encode(array(
   "api_key" => "api-007B48465F0F11EA9768F23C91C88F4E",
   "sender" => "noreply@technerdssolutions.com",
-  "to" => array(
-    0 => "thiru@technerdssolutions.com"
-  ),
+  "to" =>  ["<prakashmcaking@gmail.com>"],
   "subject" => "Welcome to the TechNerds Solutions",
   "html_body" => $message,
 )));
 $result = curl_exec($curl);
-echo $result;
-
+print_r($result);
+exit;
 
 header('Location: thankyou.php');
 } else {
