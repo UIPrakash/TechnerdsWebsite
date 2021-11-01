@@ -400,7 +400,7 @@
            </div>
         </section>
         <section id="process">
-          <h1>Pricing Model</h1>
+          <h1>Pricing Models</h1>
           <div class="container">
             <div class="row">
               <div class="col-12 col-md-4 col-lg-4 col-xl-4  mt-5 itemProcess">

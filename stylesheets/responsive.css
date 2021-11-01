@@ -496,7 +496,94 @@ nav.shrink {
 
 @media screen and (max-width: 991px) {
 
+    #model .modelTile {
+        padding: 25px 20px;
+        height: 375px
+    }
 }
+
+@media only screen 
+  and (min-width: 1024px) 
+  and (max-height: 1366px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+    #model .modelTile {
+        padding: 25px 20px;
+        height: 375px
+    }
+    #about
+    {
+        background-position-x: 5%;
+        background-size: cover;
+    }
+    #started
+    {
+        background: none;
+    }
+    #about .con .landing_content {
+        width: 100%;
+        margin-top: 90%;
+    }
+    #healthcare, #bfs, #eLearning, #wireless {
+        background-position-x: 75%;
+    }
+    #appDev, #softDev, #mobility, #qa, #appMain, #support, #erp
+    {
+        background-position-x: 85%;
+    }
+    #appDev .landing_content, #softDev .landing_content, #mobility .landing_content, #qa .landing_content, #appMain .landing_content, #support .landing_content, #erp .landing_content
+    {
+        background-color: rgba(0,0,0,0.4);
+        padding: 35px;
+    }
+    .navbar .dropdown-menu .navContainer .navBox .navItem
+    {
+        width: 25%;
+    }
+    #careers{
+        background-position: 65%;
+    }
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-width: 1024px) 
+  and (max-height: 1366px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+    #model .modelTile {
+        padding: 25px 20px;
+        height: 375px
+    }
+    #about
+    {
+        background-position-x: 5%;
+        background-size: cover;
+    }
+    #started
+    {
+        background: none;
+    }
+    #about .con .landing_content {
+        width: 40%;
+       
+    }
+    #healthcare, #bfs, #eLearning, #wireless {
+        background-position-x: 100%;
+    }
+    #appDev, #softDev, #mobility, #qa, #appMain, #support, #erp
+    {
+        background-position-x: 70%;
+    }
+    #careers{
+        background-position: 55%;
+    }
+
+
+}
+
+
 #footer .socialIcon
 {
     margin-bottom: 25px;
